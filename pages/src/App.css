@@ -1,0 +1,62 @@
+.ab{
+  position: relative;
+  top: 17px;
+  margin-left: 20px;
+  left: 0;
+  border: solid yellow 2px;
+  margin-bottom: 14px;
+  margin-right: 20px;
+}
+
+.abh img{
+  position: relative;
+  left: 17px;
+  border-radius: 47%;
+  padding: 17px 17px;
+}
+
+.abh{
+  border-radius: 20%;
+  
+}
+
+
+.abhi{
+  position: relative;
+  padding: 20px 17px;
+  background-color: orangered;
+  
+}
+
+
+#move{
+  position: relative;
+  top: 50px;
+  left: 500px;
+  
+  margin-bottom: 27px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@media screen and (max-width:410px){
+  #move{
+    position: relative;
+    top: 0;
+    left: 30px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
+
+@media screen and (min-width:411px) and (max-width:480px){
+  #move{
+    position: relative;
+    top: 0;
+    left: 40px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
