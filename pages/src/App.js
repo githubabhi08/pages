@@ -28,7 +28,7 @@ const handlePageno=(num)=>{
 
 return (
   <>
-  
+  <h1>Pagination</h1>
   {
       data.map((user)=>(
          <div className='row ab '>
