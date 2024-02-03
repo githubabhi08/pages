@@ -48,7 +48,7 @@ return (
   
   {
       [1,2,3,4,5,6,7].map((num)=>(
-          <button  className='btn btn-primary me-3 mt-3' id="move" onClick={()=>handlePageno(num)}>{num}</button>
+          <button  className='btn btn-primary me-3 mt-.1' id="move" onClick={()=>handlePageno(num)}>{num}</button>
       ))
   }
   
